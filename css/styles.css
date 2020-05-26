@@ -1,0 +1,75 @@
+html {
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+    font-size: 16px;
+}
+header {
+    background-image: url(../img/flower.jpg);
+    background-position: bottom 0px right 0px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-top: 0em;
+}
+body {
+    margin: 0em;
+}
+ul.features {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+* {
+    box-sizing: border-box; /* include padding and border is size calcs */
+}
+ul.features li {
+    display: flex;
+}
+ul.features .feature-icon {
+    padding: 1rem;
+}
+ul.features .feature-description {
+    flex-grow: 1;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+footer {
+    background-image: url(../img/flower.jpg);
+}  
+footer p {
+    margin: 0px;
+    padding: 4rem 0px 4rem 0px;
+}
+svg {
+    height: 64px;
+    width: 64px;
+    fill: blue;
+}
+@media (min-width: 768px) {
+    .container {
+      max-width: 750px;
+      font-size: 1rem;
+    }
+    .features {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .features li {
+        flex-basis: 33%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 970px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1170px;
+    }
+  }
+  
