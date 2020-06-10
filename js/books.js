@@ -29,4 +29,34 @@ const BOOKS = [
         "author": "bell hooks",
         "pages": 123,
     },
+    {
+        "title": "Just Mercy",
+        "genre": "Nonfiction, Politics, Social Movements, Law, Race",
+        "author": "Bryan Stevenson",
+        "pages": 336,
+    },
+    {
+        "title": "Between The World And Me",
+        "genre": "Nonfiction, Race, History, Memoir",
+        "author": "Ta-Nehisi Coates",
+        "pages": 152,
+    },
+    {
+        "title": "The New Jim Crow: Mass Incarceration in the Age of Colorblindness",
+        "genre": "Nonfiction, Race, History",
+        "author": "Michelle Alexander",
+        "pages": 290,
+    },
+    {
+        "title": "White Fragility",
+        "genre": "Nonfiction, Social Justice, Politics, Activism",
+        "author": "Robin DiAngelo",
+        "pages": 7,
+    },
+    {
+        "title": "How to Be an Antiracist",
+        "genre": "Nonfiction, Social Movements, Race, Politics",
+        "author": "Ibram X. Kendi",
+        "pages": 305,
+    },
 ];

@@ -28,9 +28,9 @@ function renderBook (book) {
 var tr = document.createElement("tr");
 
 //create and append the <td> elements
-tr.appendChild(renderBookProp(movie.title, true));
-tr.appendChild(renderBookProp(movie.author));
-tr.appendChild(renderBookProp(movie.genre));
+tr.appendChild(renderBookProp(book.title, true));
+tr.appendChild(renderBookProp(book.author));
+tr.appendChild(renderBookProp(book.genre));
 
 //return the table row to the caller
 return tr;
@@ -53,7 +53,7 @@ function renderBookProp(content, nonNumeric) {
         return td;
 }
 
-var searchInput = document .getElementById("movie-filter");
+var searchInput = document .getElementById("book-filter");
 
 // should this movie be in our list?
 function isBookFound (book){
